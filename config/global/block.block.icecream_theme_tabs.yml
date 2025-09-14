@@ -1,0 +1,20 @@
+uuid: 3eb29288-b4b4-425b-a7fa-0b80faf838b2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - icecream_theme
+id: icecream_theme_tabs
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: visible
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

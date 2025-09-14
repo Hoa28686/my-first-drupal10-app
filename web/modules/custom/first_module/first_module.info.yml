@@ -1,0 +1,4 @@
+name: First Module
+type: module
+description: A demo module
+core_version_requirement: ^10 || ^11

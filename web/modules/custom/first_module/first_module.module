@@ -1,0 +1,40 @@
+<?php
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/** 
+* Implements hook_form_alter()
+*/
+function first_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+
+    if($form_id='user-login-form'){
+        $form['#title']=t('Login with your info');
+        $form['name']['#attributes']['placeholder']=t('Enter your username');
+        $form['pass']['#attributes']['placeholder']=t('Enter your password');
+     
+    }
+}
+
+/** implements hook_preprocess_page()
+*/
+
+function first_module_preprocess_page(&$variables){
+    $variables['first_module_variable']='My first D10 Module';
+    $variables['first_module_variable_second']='My second D10 Module';
+}
+
+/** implements hook_help()
+*/
+
+function first_module_help($route_name, RouteMatchInterface $route_match){
+switch($route_name){
+    case 'help.page.first_module':
+    $output='';
+    $output .='<h3>'.t('About').'</h3>';
+    $output .='<p>'.t('first custom module hook_help').'</p>';
+    return $output;
+    default:
+        return '';
+
+}
+}
+?>

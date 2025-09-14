@@ -1,0 +1,18 @@
+uuid: 117b059a-21db-4d49-92e7-028bf344537b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - icecream_theme
+id: icecream_theme_pagetitle_2
+theme: icecream_theme
+region: sidebar
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

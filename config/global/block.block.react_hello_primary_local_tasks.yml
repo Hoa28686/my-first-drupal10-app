@@ -1,0 +1,22 @@
+uuid: 25ebca27-5a43-4ad9-8d33-dd4d03175dbb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_hello
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: react_hello_primary_local_tasks
+theme: react_hello
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

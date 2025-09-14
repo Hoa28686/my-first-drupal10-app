@@ -1,0 +1,18 @@
+uuid: 15e72c6b-0acf-4eb1-a4b8-bf35b701b5ef
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_hello
+id: react_hello_pagetitle_2
+theme: react_hello
+region: sidebar_first
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

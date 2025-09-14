@@ -1,0 +1,5 @@
+name: Name module
+type: module
+description: a module that print your name
+core_version_requirement: ^10
+version: 0.0.1

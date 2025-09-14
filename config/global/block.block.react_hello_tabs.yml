@@ -1,0 +1,20 @@
+uuid: 12a421b6-9145-47f5-aaed-ada37c7eda4b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_hello
+id: react_hello_tabs
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: visible
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

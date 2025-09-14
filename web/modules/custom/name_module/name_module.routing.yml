@@ -1,0 +1,33 @@
+name_module.page:
+  path: "/name/{name}"
+  defaults:
+    _controller: '\Drupal\name_module\Controller\NameController::name'
+    _title: "Name module"
+    name: "Guest"
+  requirements:
+    _permission: "access content"
+
+name_module.markup:
+  path: "/markup-name/{name}"
+  defaults:
+    _controller: '\Drupal\name_module\Controller\NameController::content'
+    _title: "Name module - markup method"
+    name: "Guest"
+  requirements:
+    _permission: "access content"
+
+name_module.form:
+  path: "/name-form"
+  defaults:
+    _form: 'Drupal\name_module\Form\NameForm'
+    title: "Name Form"
+  requirements:
+    _permission: "access content"
+
+name_module.greeting:
+  path: "/greeting-after-form/{name}"
+  defaults:
+    _controller: 'Drupal\name_module\Controller\NameController::greeting'
+    title: "Greeting after form submission"
+  requirements:
+    _permission: "access content"
