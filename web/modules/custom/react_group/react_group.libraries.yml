@@ -1,4 +1,4 @@
-react_group1:
+react_group:
   version: VERSION
   js:
     js/dist/main.min.js: {}

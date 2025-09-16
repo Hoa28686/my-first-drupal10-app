@@ -1,0 +1,7 @@
+my_generated_controller.example:
+  path: '/my-generated-controller/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\my_generated_controller\Controller\MyGeneratedControllerController'
+  requirements:
+    _permission: 'access content'

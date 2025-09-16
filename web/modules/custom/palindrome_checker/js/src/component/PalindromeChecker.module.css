@@ -1,0 +1,62 @@
+.palindrome {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.palindrome input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.palindrome button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.palindrome button[type="submit"] {
+  background-color: #3da840;
+  color: white;
+}
+
+.palindrome button[type="submit"]:hover {
+  background-color: #05760b;
+}
+
+.palindrome button[type="button"] {
+  background-color: #f845ef;
+  color: white;
+}
+
+.palindrome button[type="button"]:hover {
+  background-color: #d803f0;
+}
+
+.resultTrue {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.resultFalse {
+  color: purple;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}

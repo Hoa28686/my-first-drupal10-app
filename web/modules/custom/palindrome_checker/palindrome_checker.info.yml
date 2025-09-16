@@ -1,0 +1,6 @@
+name: palindrome checker
+type: module
+description: "a module to check whether a text or sentence is palindrome"
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node

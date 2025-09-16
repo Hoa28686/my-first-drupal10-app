@@ -1,0 +1,5 @@
+name: 'my_generated_theme'
+type: module
+description: 'auto generated module'
+package: Custom
+core_version_requirement: ^10 || ^11

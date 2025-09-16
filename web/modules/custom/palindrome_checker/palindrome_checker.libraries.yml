@@ -1,0 +1,4 @@
+palindrome_checker:
+  version: 1.0.0
+  js:
+    js/dist/main.min.js: {}

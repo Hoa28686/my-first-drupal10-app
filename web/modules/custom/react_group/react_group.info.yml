@@ -1,4 +1,4 @@
-name: react group task1
+name: react group task
 type: module
 description: "a group task to practice react in drupal"
 core_version_requirement: ^10 || ^11
