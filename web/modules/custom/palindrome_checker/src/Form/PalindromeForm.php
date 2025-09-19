@@ -61,14 +61,11 @@ class PalindromeForm extends FormBase{
         
     }
     public function clearForm( array &$form,FormStateInterface $form_state){
-        // Clear the input field value.
-        
         $form_state->set('input', '');
         $form_state->setUserInput([]);
-        // Clear the result message.
+
         $form_state->set('result', null);
         
-        // Rebuild the form to reflect the cleared state.
         $form_state->setRebuild(TRUE);
     }
 }
