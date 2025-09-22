@@ -5,3 +5,11 @@ palindrome_checker.page:
     _title: "Palindrome Checker"
   requirements:
     _permission: "access content"
+
+palindrome_checker.form:
+  path: "/palindrome-checker-form"
+  defaults:
+    _form: '\Drupal\palindrome_checker\Form\PalindromeForm'
+    _title: "Palindrome Checker"
+  requirements:
+    _permission: "access content"
